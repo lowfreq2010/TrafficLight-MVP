@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQJ-Dy-AB5">
+                                <rect key="frame" x="107" y="102" width="161" height="172"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v85-JN-n1L">
+                                <rect key="frame" x="107" y="310" width="161" height="172"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKp-GK-jk7">
+                                <rect key="frame" x="107" y="526" width="161" height="172"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yQJ-Dy-AB5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="BU3-qc-Wd0"/>
+                            <constraint firstItem="SKp-GK-jk7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="D94-pe-1Ob"/>
+                            <constraint firstItem="SKp-GK-jk7" firstAttribute="top" secondItem="v85-JN-n1L" secondAttribute="bottom" constant="44" id="Djs-qM-ZGv"/>
+                            <constraint firstItem="yQJ-Dy-AB5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="58" id="FQS-Dz-p7z"/>
+                            <constraint firstItem="v85-JN-n1L" firstAttribute="height" secondItem="yQJ-Dy-AB5" secondAttribute="height" id="Fwh-zU-pke"/>
+                            <constraint firstItem="v85-JN-n1L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="JGH-xy-wvE"/>
+                            <constraint firstItem="v85-JN-n1L" firstAttribute="width" secondItem="yQJ-Dy-AB5" secondAttribute="width" id="LT6-Sp-sdG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v85-JN-n1L" secondAttribute="trailing" constant="107" id="XAj-Kf-pvn"/>
+                            <constraint firstItem="SKp-GK-jk7" firstAttribute="firstBaseline" secondItem="v85-JN-n1L" secondAttribute="baseline" constant="24" symbolType="layoutAnchor" id="caO-XD-UAe"/>
+                            <constraint firstItem="SKp-GK-jk7" firstAttribute="width" secondItem="v85-JN-n1L" secondAttribute="width" id="est-GU-0hb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SKp-GK-jk7" secondAttribute="bottom" constant="80" id="f95-AL-KTv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SKp-GK-jk7" secondAttribute="trailing" constant="107" id="jDj-Up-X0c"/>
+                            <constraint firstItem="v85-JN-n1L" firstAttribute="top" secondItem="yQJ-Dy-AB5" secondAttribute="bottom" constant="36" id="trT-UM-4UN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yQJ-Dy-AB5" secondAttribute="trailing" constant="107" id="v9c-nP-jZH"/>
+                            <constraint firstItem="yQJ-Dy-AB5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="yAq-dQ-K23"/>
+                            <constraint firstItem="SKp-GK-jk7" firstAttribute="height" secondItem="v85-JN-n1L" secondAttribute="height" id="zNN-UF-tHf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
